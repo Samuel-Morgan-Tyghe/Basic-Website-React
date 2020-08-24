@@ -12,13 +12,12 @@ Current State-
 https://samuel-morgan-tyghe.github.io/Basic-Website-To-React/
 
 ## What I Learnt
-* Visual Studio Code, Terminal Commands, 
 * React Web-Frameworks, React-Dom, React-Router, ReactJs
 * JavaScript Fundamentals, Variables and scoping, DOM Manipulation and event handlers
-* JSX - React.createElement() API,
+* Visual Studio Code, Terminal Commands
+* Build and Deploy
+* JSX 
 * ES6 
-
-
 
 # What I Can Improve
 As the second part of practacing skills to update a website to contemporary technological standards,
