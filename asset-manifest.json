@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "//Basic-Website-Updated-to-React/static/css/main.16783b96.chunk.css",
-    "main.js": "//Basic-Website-Updated-to-React/static/js/main.1e08c321.chunk.js",
-    "main.js.map": "//Basic-Website-Updated-to-React/static/js/main.1e08c321.chunk.js.map",
-    "runtime-main.js": "//Basic-Website-Updated-to-React/static/js/runtime-main.d959c9ac.js",
-    "runtime-main.js.map": "//Basic-Website-Updated-to-React/static/js/runtime-main.d959c9ac.js.map",
-    "static/js/2.c45d9a70.chunk.js": "//Basic-Website-Updated-to-React/static/js/2.c45d9a70.chunk.js",
-    "static/js/2.c45d9a70.chunk.js.map": "//Basic-Website-Updated-to-React/static/js/2.c45d9a70.chunk.js.map",
-    "index.html": "//Basic-Website-Updated-to-React/index.html",
-    "precache-manifest.93122a8463430d165b0eb66845c9fd9f.js": "//Basic-Website-Updated-to-React/precache-manifest.93122a8463430d165b0eb66845c9fd9f.js",
-    "service-worker.js": "//Basic-Website-Updated-to-React/service-worker.js",
-    "static/css/main.16783b96.chunk.css.map": "//Basic-Website-Updated-to-React/static/css/main.16783b96.chunk.css.map",
-    "static/js/2.c45d9a70.chunk.js.LICENSE.txt": "//Basic-Website-Updated-to-React/static/js/2.c45d9a70.chunk.js.LICENSE.txt"
+    "main.css": "//Basic-Website-React/static/css/main.16783b96.chunk.css",
+    "main.js": "//Basic-Website-React/static/js/main.980670f3.chunk.js",
+    "main.js.map": "//Basic-Website-React/static/js/main.980670f3.chunk.js.map",
+    "runtime-main.js": "//Basic-Website-React/static/js/runtime-main.99dc8174.js",
+    "runtime-main.js.map": "//Basic-Website-React/static/js/runtime-main.99dc8174.js.map",
+    "static/js/2.c45d9a70.chunk.js": "//Basic-Website-React/static/js/2.c45d9a70.chunk.js",
+    "static/js/2.c45d9a70.chunk.js.map": "//Basic-Website-React/static/js/2.c45d9a70.chunk.js.map",
+    "index.html": "//Basic-Website-React/index.html",
+    "precache-manifest.377d33cf3033315950ad36562ccc53fe.js": "//Basic-Website-React/precache-manifest.377d33cf3033315950ad36562ccc53fe.js",
+    "service-worker.js": "//Basic-Website-React/service-worker.js",
+    "static/css/main.16783b96.chunk.css.map": "//Basic-Website-React/static/css/main.16783b96.chunk.css.map",
+    "static/js/2.c45d9a70.chunk.js.LICENSE.txt": "//Basic-Website-React/static/js/2.c45d9a70.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.d959c9ac.js",
+    "static/js/runtime-main.99dc8174.js",
     "static/js/2.c45d9a70.chunk.js",
     "static/css/main.16783b96.chunk.css",
-    "static/js/main.1e08c321.chunk.js"
+    "static/js/main.980670f3.chunk.js"
   ]
 }
