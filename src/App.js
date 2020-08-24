@@ -1,31 +1,40 @@
 import React from 'react';
 import './App.css';
 import Nav from './Nav';
+import LandingPage from './LandingPage'
 import About from './About';
 import Projects from './Projects';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {change_css} from './ColorChange';
+
 
 function App() {
+
+
+
   return (
-    <Router>
-    <div className="App">
-      <Nav />
-      <switch>
-      <Route path="/" exact component={home} />
+    <Router >
+
+    <div className="App color1 color3" id="app" onClick={change_css} >
+<Nav />
+      <Switch>
+      
+      <Route path="/" exact component={LandingPage}  />
       <Route path="/About" exact component={About} />
       <Route path="/Projects" exact component={Projects} />
-      </switch>
-      
+      </Switch>
+
+
+
     </div>
     </Router>
+    
   );
 }
 
 
-const home = () => (
-  <div>
-    <h1>Home Page</h1>
-  </div>
-);
+
+
+
 
 export default App;

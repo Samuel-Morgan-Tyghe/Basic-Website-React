@@ -1,46 +1,7 @@
-.App {
-  text-align: center;
-  justify-items: center;
- 
-}
-
-*{
-  font-weight: normal;
-  font-style: normal;
- }
-
- img{
-  max-width: 100%;
- }
-
-nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  min-height: 10vh;
-}
-
-.nav-links{
-font-size: 2vw;
-  width: 40%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  list-style: none;
-  z-index: 5;
-}
-
-.aboutPage{
-
-  height: 60vw;
-}
-.pageProjects{
-
-  height: 60vw;
-}
-
 .wrapper {
-  
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
   background-color: rgb(240, 230, 140);
 }
 
@@ -63,20 +24,23 @@ background-color:rgb(230,230,230) ;
   text-align: center;
   left: 5%;
   border: 5px double rgb(12, 162, 175);
+  position: fixed;
 }
 
 .page1 {
-position: relative;
+
   width: 100%;
   height: 56vw;
 }
 
-.title {
-  padding-top: 30vw;
+.page1 h1 {
+  vertical-align: middle;
+
   text-align: center;
   font-size: 6vw;
   position: fixed;
   left: 50%;
+  top: 50%;
   transform: translate(-50%, -50%);
 }
 
@@ -84,61 +48,46 @@ position: relative;
   z-index: -2;
 }
 
-.title1 {
-  padding-top: 30vw;
-  text-align: center;
-  font-size: 6vw;
+.bColor .title1 {
   position: absolute;
-  left: 50%;
-  transform: translate(-50%, -50%);
 
   -webkit-text-stroke-width: 0.5vw;
-  z-index: 2;
+  z-index: 1;
 }
 
 #defaultCanvas0 {
-  z-index: 1;
-  width: 100%;
-}
-
-
-
-
-
-.page2{
-
+  z-index: 0;
+  opacity: 100%;
 
 }
+
+
+
+
+
+
 
 
 
 
 .gifRecordingd {
-  left: 55%;
-  top: 100px;
-  position: relative;
-	padding-bottom: 30%; /* 16:9 */
-	padding-top: 25px;
-	height: 0;
-  width: 30vw;
-}
-.gifRecording{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
   
+  top: 20%;
+  left: 55%;
+  position: relative;
+  overflow: hidden;
+  width: 34vw;
+  padding-top: 19.2vw;
 }
 
 .PlayBox {
-
   position: relative;
   height: 33vw;
 }
 
 .playButton {
   position: relative;
+  left: 40%;
   bottom: 20%;
   height: 20vw;
   width: 20vw;
@@ -162,51 +111,32 @@ position: relative;
 .page3 {
   position: relative;
   z-index: 4;
-  width: 100%;
-  height: 60vw;
 
 }
 
 
 .aboutDiv {
+  width: 100%;
   background-color: inherit;
   display: flex;
-width: 50%;
-height: 100%;
-margin: auto;
+  margin: auto;
+  margin-left: 25%;
+  height: 60vw;
 
 }
 
 
-.aboutGifContainer {
-  position: relative;
-  margin-top: 33%;
-	padding-bottom: 35%; /* 16:9 */
-	padding-top: 25px;
-  width: 450px;
-  height: 150px;
-  
-
-}
-.aboutGif{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  
-}
-.aboutp{
+.aboutGif {
+  margin-top: 20vw;
 }
 
 .aboutpcontainer {
   text-align: left;
-  height: 600px;
+  height: 300px;
   margin: auto;
   margin-left: 5%;
   text-transform: uppercase;
-  width: 30vw;
-  font-size: 1.2vw;
+  width: 25vw;
 }
 
 .showMore{
@@ -218,6 +148,7 @@ margin: auto;
   border-radius: 0px;
   padding: 18px 36px;
   display: inline-block;
+  font-family: "Lucida Console", Monaco, monospace;
   font-size: 14px;
   letter-spacing: 1px;
   cursor: pointer;
@@ -260,6 +191,9 @@ margin: auto;
 
 }
 #center{
+  position: relative;
+text-align: center;
+left: 50%;
 
 }
 
@@ -302,25 +236,22 @@ font-size: 1vw;
 
 }
 #dot1 {
+  margin-left: 16%;
+  margin-top: 10%;
 
 
-}
-.dotcontainer{
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-z-index: 9;
 }
 
 .dot {
   margin: 1%;
-
   text-align: center;
-  line-height: 4.5em;
+  line-height: 1;
   width: 15vw;
   height: 15vw;
   border-radius: 100%;
-  
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 
 }
 .dot:hover {
@@ -359,7 +290,6 @@ height: 50vw;
   padding-top: 1px;
  }
 .container {
-  text-align: left;
 	max-width:400px;
 	width:100%;
 	margin:0 auto;
@@ -392,9 +322,9 @@ fieldset {
   font-family: "Jost";
 
 	border: medium none !important;
-	margin: 0 0 10px ;
+	margin: 0 0 10px;
 	min-width: 100%;
-	padding:   0 0;
+	padding: 0;
 	width: 100%;
 }
 
@@ -416,13 +346,10 @@ fieldset {
   font-family: "Jost";
 
 }
-.input{
-
-  max-width: 90%;
-}
 
 #contact textarea {
 	height:100px;
+	max-width:100%;
   resize:none;
   font-family: "Jost";
 
@@ -474,8 +401,9 @@ fieldset {
 }
 
 .fontstyle{
-  font-weight: normal;
-  font-style: normal;
+  font-family: "Jost";
+  font-size: 10vw;
+
 }
 
 
@@ -496,28 +424,4 @@ z-index: 4;
   margin: 15vw;
   text-align: center;
 
-}
-
-
-
-
-
-
-
-
-
-
-button{
-  width: 80px;
-  height: 40px;
-  margin: 15px;
-}
-.blackButton{
-  background-color: black;
-  color: white;
-}
-
-.whiteButton{
-  background-color: white;
-  color: black;
 }
