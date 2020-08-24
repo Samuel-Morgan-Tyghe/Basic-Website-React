@@ -1,10 +1,10 @@
 import './App.css';
 
 var selector = 0;
-var c1 = "rgb(225,101,93)";
-var c2 = "rgb(230,230,230)";
-var c3 = "rgb(240,230,140)";
-var c4 = "rgb(132,190,216)";
+var c1 = "rgb(230,76,67)";
+var c2 = "rgb(235,109,127)";
+var c3 = "rgb(234,176,0)";
+var c4 = "rgb(1,143,152)";
 var c5 ;
 var elements;
 var i;

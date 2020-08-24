@@ -12,7 +12,8 @@ function LandingPage() {
   return (
 
 
-<div  onClick={change_css} >
+
+<div  onClick={change_css} style={{ cursor: 'url("src\cursor.cur")' }}>
 
 <Sketch id="defaultCanvas0" />
 
@@ -58,7 +59,7 @@ function LandingPage() {
       <div className="aboutDiv">
          <div className="aboutGifContainer" ><iframe className="aboutGif" src="https://gifer.com/embed/1fmB" frameBorder="0" allowFullScreen></iframe></div>
          <div className="aboutpcontainer">
-      <p className="aboutP">
+      <div className="aboutP">
 
 <h4>Side Room Recordings is a portable recording studio founded by Jacob Myles Tyghe and situated in centre of Bath,
  Somerset, England, near its counter-part Bristol.</h4>
@@ -67,7 +68,7 @@ function LandingPage() {
 
 <h4 className="showMore"> The possibilities of where to record are endless, use the contact form at the end of the page to discuss any ideas you have</h4>
 <a  className="showMore" href="About" target="_self">The full Story</a>
-      </p>
+      </div>
 
   <div className="button_slide slide_left" onClick={findMore}>Find Out More</div>
 
@@ -83,10 +84,10 @@ function LandingPage() {
 
          <h1>Projects</h1>
          <div className= "PVideos">
-         <iframe className= "PVideo img" width="560" height="315" src="https://www.youtube.com/embed/dT3501_Zhes" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-         <iframe className= "PVideo img" width="560" height="315" src="https://www.youtube.com/embed/yI2oS2hoL0k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-         <iframe className= "PVideo img" width="560" height="315" src="https://www.youtube.com/embed/-bh_AOQgQ3Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-         <iframe className= "PVideo img" width="560" height="315" src="https://www.youtube.com/embed/Ew0vDD4kesA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <iframe className= "PVideo img" width="560" height="315" src="https://www.youtube.com/embed/dT3501_Zhes" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+         <iframe className= "PVideo img" width="560" height="315" src="https://www.youtube.com/embed/yI2oS2hoL0k" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+         <iframe className= "PVideo img" width="560" height="315" src="https://www.youtube.com/embed/-bh_AOQgQ3Q" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+         <iframe className= "PVideo img" width="560" height="315" src="https://www.youtube.com/embed/Ew0vDD4kesA" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </div>
 </div >
 <a id="center" href="Projects" target="_self">More Projects</a>
@@ -114,23 +115,23 @@ function LandingPage() {
 <div className="page6 color1 color2">
 <div className="container color1">  
  
-<form id="contact" class="color4" action="" method="post">
-    <h3 class="color3">Quick Contact</h3>
+<form id="contact" className="color4" action="" method="post">
+    <h3 className="color3">Quick Contact</h3>
     <h4>Contact us today, and get reply with in 24 hours!</h4>
     <fieldset>
-      <input class="input"  placeholder="Your name" type="text" tabindex="1" required autofocus/>
+      <input className="input"  placeholder="Your name" type="text" tabIndex="1" required autoFocus/>
     </fieldset>
     <fieldset>
-      <input class="input" placeholder="Your Email Address" type="email" tabindex="2" required/>
+      <input className="input" placeholder="Your Email Address" type="email" tabIndex="2" required/>
     </fieldset>
     <fieldset>
-      <input class="input" placeholder="Your Phone Number" type="tel" tabindex="3" required/>
+      <input className="input" placeholder="Your Phone Number" type="tel" tabIndex="3" required/>
     </fieldset>
     <fieldset>
-      <input class="input" placeholder="Your Web Site starts with http://" type="url" tabindex="4" required/>
+      <input className="input" placeholder="Your Web Site starts with http://" type="url" tabIndex="4" required/>
     </fieldset>
     <fieldset>
-      <textarea class="input" placeholder="Type your Message Here...." tabindex="5" required></textarea>
+      <textarea className="input" placeholder="Type your Message Here...." tabIndex="5" required></textarea>
     </fieldset>
     <fieldset>
       <button  name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>

@@ -10,7 +10,8 @@ z-index: 10;
 
 
 *{
-  font-weight: normal;
+  cursor: url("cursor.cur");
+    font-weight: normal;
   font-style: normal;
  
  }
@@ -25,9 +26,11 @@ nav {
   justify-content: space-around;
   align-items: center;
   min-height: 10vh;
+
 }
 
 .nav-links{
+  background-color: rgba(0, 0, 0);
 font-size: 2vw;
   width: 40%;
   display: flex;
@@ -52,16 +55,16 @@ font-size: 2vw;
 }
 
 .color1{
-background-color:rgb(225,101,93) ;
+background-color:rgb(230,76,67);
 }
 .color2{
-  color:rgb(132,190,216);
+  color:rgb(235,109,127);
 }
 .color3{
-color: rgb(240,230,140);
+color: rgb(234,176,0);
 }
 .color4{
-background-color:rgb(230,230,230) ;
+background-color:rgb(1,143,152) ;
 }
 
 .border0 {
@@ -112,10 +115,6 @@ position: relative;
 
 
 
-.page2{
-
-
-}
 
 
 
@@ -203,8 +202,7 @@ margin: auto;
   height: 100%;
   
 }
-.aboutp{
-}
+
 
 .aboutpcontainer {
   text-align: left;
@@ -266,9 +264,7 @@ margin: auto;
 
 
 }
-#center{
 
-}
 
 .borders {
   position: relative;
@@ -308,10 +304,7 @@ font-size: 3vw;
 font-size: 1vw;
 
 }
-#dot1 {
 
-
-}
 .dotcontainer{
   display: inline-flex;
   align-items: center;
