@@ -11,7 +11,7 @@ color: 'white'
 };
 
   return (
-  <nav>
+  <nav  className='puttoback'>
 <ul className='nav-links'>
 <Link style={navStyle} to="/">
 <li>Home</li>

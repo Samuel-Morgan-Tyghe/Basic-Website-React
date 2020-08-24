@@ -15,7 +15,7 @@ function App() {
   return (
     <Router >
 
-    <div className="App color1 color3" id="app" onClick={change_css} >
+    <div className="App color1 color3" id="app"  >
 <Nav />
       <Switch>
       

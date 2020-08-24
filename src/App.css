@@ -3,10 +3,16 @@
   justify-items: center;
  
 }
+.puttoback{
+background-color: black;
+z-index: 10;
+}
+
 
 *{
   font-weight: normal;
   font-style: normal;
+ 
  }
 
  img{
@@ -14,6 +20,7 @@
  }
 
 nav {
+  
   display: flex;
   justify-content: space-around;
   align-items: center;

@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Test from './testing';
+import {change_css} from './ColorChange';
 
 
 
@@ -19,7 +20,7 @@ function About() {
 
 
   return (
-    <div class ="aboutPage"  onClick="">
+    <div class ="aboutPage"  onClick={change_css} >
 <h1 class="pagetitle">About In Full</h1>
 <h2 class = "center">
     Side Room Recordings is a portable recording studio founded by Jacob Myles Tyghe and situated in centre of Bath,

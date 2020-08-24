@@ -4,6 +4,7 @@ import {draw} from './Sketch';
 import {findMore} from './findMore';
 import {tosquare} from './toSquareExpand';
 import Sketch from "./Sketch"
+import {change_css} from './ColorChange';
 
 function LandingPage() {
 
@@ -11,11 +12,11 @@ function LandingPage() {
   return (
 
 
-<div>
+<div  onClick={change_css} >
 
 <Sketch id="defaultCanvas0" />
 
-<div className="wrapper color1 color2" >
+<div className="wrapper color1 color2">
 
 
 
