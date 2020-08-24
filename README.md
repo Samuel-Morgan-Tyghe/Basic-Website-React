@@ -25,5 +25,6 @@ As the second part of practacing skills to update a website to contemporary tech
 Next Step would be to:
 
 * Use Bootstrap to create a Fully Responsive Website
+* Follow best practices such as , clear code, organise and modulise . Take notes so as to incorporate from the beggining of next project.
 * Create back-end function for Contact Form. 
 * Perform SEO Analysis and add additional content (Social media, metadata...)
