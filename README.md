@@ -23,7 +23,7 @@ https://samuel-morgan-tyghe.github.io/Basic-Website-To-React/
 As the second part of practicing skills to update a website to contemporary technological standards,
 Next Step would be to:
 
-* Use Bootstrap to create a Fully Responsive Website
+* Use ~~Bootstrap~~ flex to create a Fully Responsive Website, addditionally add Fluid Typography.
 * Follow best practices such as , clear code, organise and modularise . Take notes so as to incorporate from the beginning of the next project.
 * Create back-end function for Contact Form
 * Perform SEO Analysis and add additional content (Social media, metadata...)
