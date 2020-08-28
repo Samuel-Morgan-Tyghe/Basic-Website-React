@@ -27,3 +27,4 @@ Next Step would be to:
 * Follow best practices such as , clear code, organise and modularise . Take notes so as to incorporate from the beginning of the next project (with Bootstrap CSS).
 * Create back-end function for Contact Form
 * Perform SEO Analysis and add additional content (Social media, metadata...)
+* Add Sass and categorise css into seperate files, (modulise) convert ChangeColor.js to variables within Sass to follow best practices.
