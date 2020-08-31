@@ -13,12 +13,10 @@ class Sketch  extends React.Component {
 // Where is the circle
 //let x, y;
 let wiggleamount = 3;
-let wiggleamountb = wiggleamount;
 let wiggleamount1;
 let wiggleamount1b;
 let numBalls = 100;
 let balls = [];
-let wV = wiggleamount;
 let ballx = [];
 let bally = [];
 let l = 0;
@@ -33,47 +31,44 @@ let colorV;
 var selector = 0;
 
 
-let int ;
-let x;
-let y;
-
-let random_boolean =p.random_boolean;
 
 
 
-p.centerCanvas =()=> {
-   x = (p.windowWidth - p.width ) / 2;
-   y = (p.windowHeight - p.height ) / 2;
-  cnv.position(0, 120);
-}
+var divWidth = document.getElementById('sketchDimensionsDiv').offsetWidth;
+var divHeight = document.getElementById('sketchDimensionsDiv').offsetHeight;
+
+
+var element = document.getElementById('sketchDimensionsDiv');
+var positionInfo = element.getBoundingClientRect();
+var divHeight = positionInfo.height;
+var divWidth = positionInfo.width;
+
 
 p.setup = () => {
   colorV = p.color(255, 204, 0);
 
-  cnv = p.createCanvas(p.windowWidth -20, p.windowHeight);
-  p.centerCanvas();
+  cnv = p.createCanvas(p.divWidth, p.windowHeight);
   wiggleamount = p.random(1, 5);
   wiggleamount1 = p.random(1, 5);
   wiggleamount1b = wiggleamount1;
  typen = p.int (p.random(1,5));
-  if (typen==1) {sineW = true;}  
-  if (typen==2) {triangleW = true;}  
-  if (typen==3) {toothW = true;}  
-  if (typen==4) {squareW = true;}  
+  if (typen===1) {sineW = true;}  
+  if (typen===2) {triangleW = true;}  
+  if (typen===3) {toothW = true;}  
+  if (typen===4) {squareW = true;}  
 
 
   p.createCanvas(p.windowWidth -20, p.windowHeight);
   // Starts in the middle
-  x = p.width / 2;
-  y = p.height / 2;
+
 
   for (let i = 0; i < numBalls; i++) {
     balls[i] = new Ball(
       p.random(p.int(p.width)),
       p.random(p.int(p.height)),
       wiggleamount, wiggleamount, wiggleamount1, wiggleamount1b,
-      (random_boolean = Math.random() >= 0.5),
-      (random_boolean = Math.random() >= 0.5),
+      (p.random_boolean = Math.random() >= 0.5),
+      (p.random_boolean = Math.random() >= 0.5),
       0
 
     );
@@ -91,11 +86,11 @@ p.draw = () => {
 
 p.mouseClicked=()=> {
 selector = selector + 1;
-  if (selector == 1) {
+  if (selector === 1) {
     colorV = p.color(20,159,157);
-  } else if (selector == 2) {
+  } else if (selector === 2) {
     colorV = p.color(238,243,220);
-  } else if (selector == 3) {
+  } else if (selector === 3) {
     colorV = p.color(233,94,87);
     selector = 0;
   }
@@ -104,8 +99,9 @@ selector = selector + 1;
 
 
 p.windowResized=()=> {
-  p.resizeCanvas(p.windowWidth -20, p.windowHeight);
-  p.centerCanvas();
+  if(p.windowWidth)
+  p.resizeCanvas (p.windowWidth -20, p.windowHeight);
+ 
 }
 
 class Ball {
@@ -120,7 +116,7 @@ class Ball {
     this.wiggletoggle = wiggletoggle;
   }
 
-  display=()=> {
+  display() {
 
 
     if (this.y <= 2) {
@@ -162,106 +158,105 @@ class Ball {
 
     if (sineW) {
 
-      if (this.wiggletoggle == 1) {
+      if (this.wiggletoggle === 1) {
         this.wiggleamount = this.wiggleamount - wS;
 
 
       }
-      if (this.wiggletoggle == 2) {
+      if (this.wiggletoggle === 2) {
         this.wiggleamount = this.wiggleamount - wS;
 
       }
 
-      if (this.wiggletoggle == 3) {
+      if (this.wiggletoggle === 3) {
         this.wiggleamount = this.wiggleamount - wS;
       }
 
-      if (this.wiggletoggle == 4) {
+      if (this.wiggletoggle === 4) {
         this.wiggleamount = this.wiggleamount + wS;
 
       }
-      if (this.wiggletoggle == 5) {
+      if (this.wiggletoggle === 5) {
         this.wiggleamount = this.wiggleamount + wS;
       }
-      if (this.wiggletoggle == 6) {
+      if (this.wiggletoggle === 6) {
         this.wiggleamount = this.wiggleamount + wS;
 
         this.wiggletoggle = 0
       }
     }
-    if (triangleW == true) {
+    if (triangleW === true) {
 
 
 
-      if (this.wiggletoggle == 3) {
+      if (this.wiggletoggle === 3) {
         this.wiggleamount = this.wiggleamount * -wS;
       }
 
 
-      if (this.wiggletoggle == 6) {
+      if (this.wiggletoggle === 6) {
         this.wiggleamount = this.wiggleamount * -wS;
 
         this.wiggletoggle = 0
       }
     }
 
-    if (squareW == true) {
+    if (squareW === true) {
 
 
 
-      if (this.wiggletoggle == 0) {
+      if (this.wiggletoggle === 0) {
           this.wiggleamount = 8;
 
       }
-      if (this.wiggletoggle == 2) {
+      if (this.wiggletoggle === 2) {
           this.wiggleamount = 0;
 
 
       }
-      if (this.wiggletoggle == 12) {
+      if (this.wiggletoggle === 12) {
          this.wiggleamount = -8;
 
       }
 
-      if (this.wiggletoggle == 14) {
+      if (this.wiggletoggle === 14) {
          this.wiggleamount = 0;
       }
       
-      if (this.wiggletoggle == 24) {
+      if (this.wiggletoggle === 24) {
           this.wiggleamount = 8;
         this.wiggletoggle = 0;
       }
     }
 
 
-    if (toothW == true) {
+    if (toothW === true) {
 
-      if (this.wiggletoggle == 1) {
+      if (this.wiggletoggle === 1) {
 
           this.wiggleamount = 8 ;
 
       }
 
-      if (this.wiggletoggle == 2) {
+      if (this.wiggletoggle === 2) {
           this.wiggleamount = 0;
 
       }
     
 
-      if (this.wiggletoggle == 8) {
+      if (this.wiggletoggle === 8) {
         this.wiggletoggle = 0;
       }
     }
 
 
-    if (this.wiggletoggle == this.wiggletoggle) {
       ballx[l] = this.x;
       bally[l] = this.y;
 
       l++;
       p.fill(colorV);
 
-      if (l == 1) {
+      if (l === 1) {
         l = 0;
       }
       for (let i = 0; i < ballx.length; i++) {
@@ -271,7 +266,7 @@ class Ball {
 
       // fill(10);
       //   ellipse(this.x, this.y, 7, 7);
-    }
+    
 
 
     this.wiggletoggle++;

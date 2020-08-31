@@ -44,13 +44,13 @@ let random_boolean =p.random_boolean;
 p.centerCanvas =()=> {
    x = (p.windowWidth - p.width ) / 2;
    y = (p.windowHeight - p.height ) / 2;
-  cnv.position(0, 120);
+  cnv.position(x, y);
 }
 
 p.setup = () => {
   colorV = p.color(255, 204, 0);
 
-  cnv = p.createCanvas(p.windowWidth -20, p.windowHeight);
+  cnv = p.createCanvas(p.windowWidth, p.windowHeight);
   p.centerCanvas();
   wiggleamount = p.random(1, 5);
   wiggleamount1 = p.random(1, 5);
@@ -62,7 +62,7 @@ p.setup = () => {
   if (typen==4) {squareW = true;}  
 
 
-  p.createCanvas(p.windowWidth -20, p.windowHeight);
+  p.createCanvas(p.windowWidth, p.windowHeight);
   // Starts in the middle
   x = p.width / 2;
   y = p.height / 2;
@@ -104,7 +104,7 @@ selector = selector + 1;
 
 
 p.windowResized=()=> {
-  p.resizeCanvas(p.windowWidth -20, p.windowHeight);
+  p.resizeCanvas(p.windowWidth, p.windowHeight);
   p.centerCanvas();
 }
 

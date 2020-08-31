@@ -1,0 +1,72 @@
+.page3
+  z-index: 4
+  position: relative
+  display: flex
+  flex-direction: row
+  justify-content: center
+  justify-items: center
+  padding: 20vw 10vw 20vw 10vw
+
+.aboutDiv
+  height: 40vw
+  position: relative
+  display: flex
+  flex-direction: row
+
+
+.aboutGifContainer
+  width: 100%
+  height: 100%
+  margin: 50px
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+  justify-content: center
+  align-items: center
+
+.aboutGif
+  height: 500px
+  width: 300px
+
+.aboutpcontainer
+  text-align: left
+  text-transform: uppercase
+  margin: 50px
+  width: 100%
+  height: 100%
+
+
+.showMore
+  display: none
+
+.button_slide
+  border: 2px solid rgb(20, 159, 157)
+  border-radius: 0px
+  padding: 18px 36px
+  display: inline-block
+  font-size: 14px
+  letter-spacing: 1px
+  cursor: pointer
+  box-shadow: inset 0 0 0 0 black
+  -webkit-transition: ease-out 0.4s
+  -moz-transition: ease-out 0.4s
+  transition: ease-out 0.4s
+
+@media screen and (max-width: 1450px)
+
+.slide_left:hover
+  box-shadow: inset 0 0 0 50px black
+
+@media screen and (max-width: 1200px)
+  .page3
+    flex-direction: column
+.aboutGifContainer
+  margin: auto
+  width: 90%
+.aboutpcontainer
+  margin: auto
+  width: 90%
+
+@media screen and (max-width: 600px)
+  .page3
+    flex-flow: block

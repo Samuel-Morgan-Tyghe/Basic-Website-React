@@ -1,0 +1,90 @@
+.page5
+  position: relative
+  width: 100%
+  height: 100%
+  display: flex
+  justify-content: space-evenly
+  align-items: center
+  flex-direction: column
+
+h2
+  font-size: 5vw
+
+.dotcontainer
+  margin: 5vw
+  width: 100%
+  height: 100%
+  display: flex
+  z-index: 9
+  .dotInnerContainer
+    width: 100%
+    display: flex
+    align-items: center
+    justify-content: space-evenly
+
+.dot
+  width: 400px
+  border-radius: 100%
+  margin: 5vw 1vw 5vw 1vw
+  text-align: center
+  align-items: center
+  justify-content: space-evenly
+  
+  &:hover
+    opacity: 90%
+  h4
+    width: 100%
+    height: 100%
+    justify-content: space-evenly
+    font-size: 1.5em
+  h4:nth-child(1) 
+    font-size: 2em
+  p 
+    justify-content: space-evenly
+    width: 100%
+    height: 100%
+    opacity: 0%
+  
+
+  
+@media screen and (max-width: 1775px)
+  .dotInnerContainer
+    flex-direction: column
+    align-content: space-evenly
+  .dot
+    margin: 5vw
+
+@media screen and (max-width: 1025px)
+  .dotcontainer
+   flex-direction: column
+  .dot
+    margin: 10vw
+  .dotInnerContainer
+    margin: 0
+
+
+
+.addInfo
+  display: none
+
+@keyframes stretch
+  0%
+    border-radius: 100%
+
+  100%
+    border-radius: 0px
+
+@keyframes fadein
+  50%
+    opacity: 0%
+
+  100%
+    opacity: 100%
+    
+    
+.border5
+  position: relative
+  width: 90%
+  border: 5px double rgb(12, 162, 175)
+  z-index: 5
+  margin: 1vw
