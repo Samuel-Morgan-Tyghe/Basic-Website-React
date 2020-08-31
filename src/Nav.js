@@ -13,7 +13,7 @@ color: 'white'
   return (
   <nav  className='puttoback'>
 <ul className='nav-links'>
-<Link style={navStyle} to="/">
+<Link style={navStyle} to="/Basic-Website-To-React">
 <li>Home</li>
 </Link>
 <Link style={navStyle} to="/about">
