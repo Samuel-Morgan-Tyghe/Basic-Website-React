@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/Basic-Website-To-React/static/css/main.40f721e8.chunk.css",
-    "main.js": "/Basic-Website-To-React/static/js/main.989f2eb1.chunk.js",
-    "main.js.map": "/Basic-Website-To-React/static/js/main.989f2eb1.chunk.js.map",
+    "main.css": "/Basic-Website-To-React/static/css/main.1027647b.chunk.css",
+    "main.js": "/Basic-Website-To-React/static/js/main.d1be122f.chunk.js",
+    "main.js.map": "/Basic-Website-To-React/static/js/main.d1be122f.chunk.js.map",
     "runtime-main.js": "/Basic-Website-To-React/static/js/runtime-main.f5bfbb92.js",
     "runtime-main.js.map": "/Basic-Website-To-React/static/js/runtime-main.f5bfbb92.js.map",
-    "static/js/2.c45d9a70.chunk.js": "/Basic-Website-To-React/static/js/2.c45d9a70.chunk.js",
-    "static/js/2.c45d9a70.chunk.js.map": "/Basic-Website-To-React/static/js/2.c45d9a70.chunk.js.map",
+    "static/js/2.eb31b025.chunk.js": "/Basic-Website-To-React/static/js/2.eb31b025.chunk.js",
+    "static/js/2.eb31b025.chunk.js.map": "/Basic-Website-To-React/static/js/2.eb31b025.chunk.js.map",
     "index.html": "/Basic-Website-To-React/index.html",
-    "precache-manifest.6f128bfe6a4c9a9955144aa0bc2c811d.js": "/Basic-Website-To-React/precache-manifest.6f128bfe6a4c9a9955144aa0bc2c811d.js",
+    "precache-manifest.649d541fb22de1e80aa37d95a84f757a.js": "/Basic-Website-To-React/precache-manifest.649d541fb22de1e80aa37d95a84f757a.js",
     "service-worker.js": "/Basic-Website-To-React/service-worker.js",
-    "static/css/main.40f721e8.chunk.css.map": "/Basic-Website-To-React/static/css/main.40f721e8.chunk.css.map",
-    "static/js/2.c45d9a70.chunk.js.LICENSE.txt": "/Basic-Website-To-React/static/js/2.c45d9a70.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/Basic-Website-To-React/static/media/cursor.cb9702b5.cur"
+    "static/css/main.1027647b.chunk.css.map": "/Basic-Website-To-React/static/css/main.1027647b.chunk.css.map",
+    "static/js/2.eb31b025.chunk.js.LICENSE.txt": "/Basic-Website-To-React/static/js/2.eb31b025.chunk.js.LICENSE.txt",
+    "static/media/RecordingGif.gif": "/Basic-Website-To-React/static/media/RecordingGif.ecf3b3d2.gif",
+    "static/media/cursor.cur": "/Basic-Website-To-React/static/media/cursor.cb9702b5.cur"
   },
   "entrypoints": [
     "static/js/runtime-main.f5bfbb92.js",
-    "static/js/2.c45d9a70.chunk.js",
-    "static/css/main.40f721e8.chunk.css",
-    "static/js/main.989f2eb1.chunk.js"
+    "static/js/2.eb31b025.chunk.js",
+    "static/css/main.1027647b.chunk.css",
+    "static/js/main.d1be122f.chunk.js"
   ]
 }
