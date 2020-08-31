@@ -30,3 +30,4 @@ Next Step would be to:
 - [x] Add Sass and categorise css into seperate files, (modulise) convert ChangeColor.js to variables within Sass to follow best practices.
 - [ ] Debugging javascript, p5js- resize function
 - [ ] Animation and Opacity not working in Pages Build 
+- [ ] Custom Cursor
