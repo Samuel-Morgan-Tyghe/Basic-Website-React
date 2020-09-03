@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Basic-Website-To-React/static/css/main.a8a7eca5.chunk.css",
+    "main.css": "/Basic-Website-To-React/static/css/main.d1f40bfd.chunk.css",
     "main.js": "/Basic-Website-To-React/static/js/main.1cd78391.chunk.js",
     "main.js.map": "/Basic-Website-To-React/static/js/main.1cd78391.chunk.js.map",
     "runtime-main.js": "/Basic-Website-To-React/static/js/runtime-main.f5bfbb92.js",
@@ -8,9 +8,9 @@
     "static/js/2.0ce17b1e.chunk.js": "/Basic-Website-To-React/static/js/2.0ce17b1e.chunk.js",
     "static/js/2.0ce17b1e.chunk.js.map": "/Basic-Website-To-React/static/js/2.0ce17b1e.chunk.js.map",
     "index.html": "/Basic-Website-To-React/index.html",
-    "precache-manifest.dcb7ef1c24788c69a17a3d02c606cc77.js": "/Basic-Website-To-React/precache-manifest.dcb7ef1c24788c69a17a3d02c606cc77.js",
+    "precache-manifest.6f651f7aa62824449d9caaabe08a02ec.js": "/Basic-Website-To-React/precache-manifest.6f651f7aa62824449d9caaabe08a02ec.js",
     "service-worker.js": "/Basic-Website-To-React/service-worker.js",
-    "static/css/main.a8a7eca5.chunk.css.map": "/Basic-Website-To-React/static/css/main.a8a7eca5.chunk.css.map",
+    "static/css/main.d1f40bfd.chunk.css.map": "/Basic-Website-To-React/static/css/main.d1f40bfd.chunk.css.map",
     "static/js/2.0ce17b1e.chunk.js.LICENSE.txt": "/Basic-Website-To-React/static/js/2.0ce17b1e.chunk.js.LICENSE.txt",
     "static/media/RecordingGif.gif": "/Basic-Website-To-React/static/media/RecordingGif.ecf3b3d2.gif",
     "static/media/cursor.cur": "/Basic-Website-To-React/static/media/cursor.cb9702b5.cur"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.f5bfbb92.js",
     "static/js/2.0ce17b1e.chunk.js",
-    "static/css/main.a8a7eca5.chunk.css",
+    "static/css/main.d1f40bfd.chunk.css",
     "static/js/main.1cd78391.chunk.js"
   ]
 }
