@@ -5,6 +5,7 @@ import {tosquare} from './toSquareExpand';
 import Sketch from "./Sketch"
 import {change_css} from './ColorChange';
 import './Media/RecordingGif.gif'
+import './Media/Studio.gif'
 import './cursor.cur'
 import Submit from "./Submit"
 function LandingPage() {
@@ -54,7 +55,7 @@ function LandingPage() {
 
 <div className="page3 color1" id ="page3">
 
-         <div className="aboutGifContainer" ><iframe className="aboutGif" src="https://gifer.com/embed/1fmB" frameBorder="0" ></iframe></div>
+         <div className="aboutGifContainer" ><img className="aboutGif" src={require("./Media/Studio.gif")} ></img></div>
          <div className="aboutpcontainer">
       <div className="aboutP">
 
@@ -169,7 +170,6 @@ function LandingPage() {
 </div>
 </div>
          </div >
-         < Submit />
 
          </div>
 
