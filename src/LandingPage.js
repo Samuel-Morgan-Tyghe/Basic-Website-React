@@ -6,7 +6,7 @@ import Sketch from "./Sketch"
 import {change_css} from './ColorChange';
 import './Media/RecordingGif.gif'
 import './cursor.cur'
-
+import Submit from "./Submit"
 function LandingPage() {
 
 
@@ -166,10 +166,10 @@ function LandingPage() {
     <input type="submit" value="Submit"></input>
 </form>
  
-  
 </div>
 </div>
          </div >
+         < Submit />
 
          </div>
 
