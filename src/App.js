@@ -22,6 +22,7 @@ function App() {
       <Switch>
       
       <Route path="/Basic-Website-To-React" exact component={LandingPage}  />
+
       <Route path="/About" exact component={About} />
       <Route path="/Projects" exact component={Projects} />
       </Switch>

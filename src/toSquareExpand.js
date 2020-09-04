@@ -2,7 +2,7 @@ import './App.css';
 let elements;
 let i;
 
-export function tosquare(dot,addInfo){
+export function tosquare(){
     elements = document.getElementsByClassName("dot");
   for( i=0; i<elements.length; i++) { 
     elements[i].style.cssText = 
