@@ -21,6 +21,7 @@ https://samuel-morgan-tyghe.github.io/Basic-Website-To-React/
 * Sass
 * Bootstrap
 * Fully responsive design practices ( vw,eh,max,min,%), Flex, @media Screen
+* colocation
 
 # What I Can Improve
 As the second part of practicing skills to update a website to contemporary technological standards,
