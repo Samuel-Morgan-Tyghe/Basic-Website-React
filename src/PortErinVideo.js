@@ -24,7 +24,7 @@ class TransitionV1 extends Component {
    loadingOverlay={
      <div className="loading-spinner-overlay " > </div>
    }/>
-    <div className="VtextContainer "><p>PortErin</p><p>PortErin</p><p>PortErin</p><p>PortErin</p><p>PortErin</p></div><div className="vBorders "></div>
+    <div className="VtextContainer "><p>Port Erin</p><p>Port Erin</p><p>Port Erin</p><p>Port Erin</p><p>Port Erin</p></div><div className="vBorders "></div>
    </div>
        
       </VizSensor>

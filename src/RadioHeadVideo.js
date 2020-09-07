@@ -23,7 +23,7 @@ class TransitionV2 extends Component {
    loadingOverlay={
      <div className="loading-spinner-overlay " > </div>
    }/>
-    <div className="VtextContainer "><p>Radiohead</p><p>Radiohead</p><p>Radiohead</p><p>Radiohead</p><p>Radiohead</p></div><div className="vBorders "></div>
+    <div className="VtextContainer "><p>Radiohead</p><p>Radiohead</p><p>Radiohead</p></div><div className="vBorders "></div>
    </div>
        
       </VizSensor>

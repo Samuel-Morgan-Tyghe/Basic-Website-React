@@ -4,21 +4,9 @@ import {findMore} from './findMore';
 import {tosquare} from './toSquareExpand';
 import Sketch from "./Sketch"
 import {change_css} from './ColorChange';
-import './Media/RecordingGif.gif'
-import './Media/Studio.gif'
-import './Media/NickHarper.mpeg'
-import './Media/PortErin1.mp4'
-import './Media/Radiohead.mpeg'
-import './Media/TheBrackish.mpeg'
 import './cursor.cur'
-import HoverVideoPlayer from 'react-hover-video-player';
-import TransitionV1  from './PortErinVideo.js';
-import TransitionV2  from './RadioHeadVideo.js';
-import TransitionV3  from './TheBrackishVideo.js';
-import TransitionV4  from './NickHarperVideo.js';
 import Videos from './scroll copy'
-
-
+import ContactForm from './ContactForm';
 
 
 
@@ -159,23 +147,12 @@ function LandingPage() {
 <div className="page6 color1 color2">
 <div className="container color4 color2"> 
 
-<form action="/action_page.php">
-    <h3>Quick Contact</h3>
-    <p>Contact us today, and get reply with in 24 hours!</p>
-    <input type="text" placeholder="Your name..">
-</input>
-    <input type="text" placeholder="Your Number..">
-</input>
-    <input type="text" placeholder="Your Email..">
-</input>
-    <textarea id="subject"  placeholder="Write something.."></textarea>
-    <input type="submit" value="Submit"></input>
-</form>
- 
+<ContactForm />
+
+
 </div>
 </div>
          </div >
-
 
 
         
