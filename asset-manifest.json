@@ -1,32 +1,29 @@
 {
   "files": {
     "main.css": "/Basic-Website-To-React/static/css/main.6c1e2d9b.chunk.css",
-    "main.js": "/Basic-Website-To-React/static/js/main.46324aed.chunk.js",
-    "main.js.map": "/Basic-Website-To-React/static/js/main.46324aed.chunk.js.map",
+    "main.js": "/Basic-Website-To-React/static/js/main.6d6c1cfd.chunk.js",
+    "main.js.map": "/Basic-Website-To-React/static/js/main.6d6c1cfd.chunk.js.map",
     "runtime-main.js": "/Basic-Website-To-React/static/js/runtime-main.f5bfbb92.js",
     "runtime-main.js.map": "/Basic-Website-To-React/static/js/runtime-main.f5bfbb92.js.map",
-    "static/js/2.018c5943.chunk.js": "/Basic-Website-To-React/static/js/2.018c5943.chunk.js",
-    "static/js/2.018c5943.chunk.js.map": "/Basic-Website-To-React/static/js/2.018c5943.chunk.js.map",
+    "static/js/2.6017d6f6.chunk.js": "/Basic-Website-To-React/static/js/2.6017d6f6.chunk.js",
+    "static/js/2.6017d6f6.chunk.js.map": "/Basic-Website-To-React/static/js/2.6017d6f6.chunk.js.map",
     "index.html": "/Basic-Website-To-React/index.html",
-    "precache-manifest.be559bd6230e6338b3c53eae5e32256a.js": "/Basic-Website-To-React/precache-manifest.be559bd6230e6338b3c53eae5e32256a.js",
+    "precache-manifest.9dc17d9a623c121c0cf3bfe7b42ae29c.js": "/Basic-Website-To-React/precache-manifest.9dc17d9a623c121c0cf3bfe7b42ae29c.js",
     "service-worker.js": "/Basic-Website-To-React/service-worker.js",
     "static/css/main.6c1e2d9b.chunk.css.map": "/Basic-Website-To-React/static/css/main.6c1e2d9b.chunk.css.map",
-    "static/js/2.018c5943.chunk.js.LICENSE.txt": "/Basic-Website-To-React/static/js/2.018c5943.chunk.js.LICENSE.txt",
+    "static/js/2.6017d6f6.chunk.js.LICENSE.txt": "/Basic-Website-To-React/static/js/2.6017d6f6.chunk.js.LICENSE.txt",
     "static/media/NickHarper.mp4": "/Basic-Website-To-React/static/media/NickHarper.0d1685a4.mp4",
-    "static/media/NickHarper.mpeg": "/Basic-Website-To-React/static/media/NickHarper.43cff8b6.mpeg",
     "static/media/PortErin1.mp4": "/Basic-Website-To-React/static/media/PortErin1.fe5d38e9.mp4",
-    "static/media/Radiohead.mpeg": "/Basic-Website-To-React/static/media/Radiohead.6cafd6b2.mpeg",
     "static/media/Radiohead.mp4": "/Basic-Website-To-React/static/media/Radiohead.7e24023f.mp4",
     "static/media/RecordingGif.gif": "/Basic-Website-To-React/static/media/RecordingGif.ecf3b3d2.gif",
     "static/media/Studio.gif": "/Basic-Website-To-React/static/media/Studio.4f7561e7.gif",
-    "static/media/TheBrackish.mpeg": "/Basic-Website-To-React/static/media/TheBrackish.0d27edeb.mpeg",
     "static/media/TheBrackish.mp4": "/Basic-Website-To-React/static/media/TheBrackish.b657761d.mp4",
     "static/media/cursor.cur": "/Basic-Website-To-React/static/media/cursor.cb9702b5.cur"
   },
   "entrypoints": [
     "static/js/runtime-main.f5bfbb92.js",
-    "static/js/2.018c5943.chunk.js",
+    "static/js/2.6017d6f6.chunk.js",
     "static/css/main.6c1e2d9b.chunk.css",
-    "static/js/main.46324aed.chunk.js"
+    "static/js/main.6d6c1cfd.chunk.js"
   ]
 }
