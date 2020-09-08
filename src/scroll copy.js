@@ -16,12 +16,18 @@ function Videos() {
   const [innerVideoContainer, VidTrans] = useState("innerVideoContainer");
 
   const listenScrollEvent = event => {
+    if (window.scrollY > 200) {
+    elements = document.getElementsByClassName("mainborder");
+    for( i=0; i<elements.length; i++) { 
+      elements[i].style.cssText = "transform: translateY(45px);";
+    }
+  }
 
-    let speed = window.scrollY;
 
+if (window.scrollY > 2000) {
 
+  let speed = window.scrollY;
     elements = document.getElementsByClassName("v1");
-    
     for( i=0; i<elements.length; i++) { 
       elements[i].style.cssText = "transform: translateY(-"+((-400)+(speed/10))+"px);";
     }
@@ -37,6 +43,11 @@ function Videos() {
     for( i=0; i<elements.length; i++) { 
       elements[i].style.cssText = "transform: translateY(-"+((-400)+(speed/12))+"px);";
     }
+  }
+
+
+
+
   };
 
   useEffect(() => {

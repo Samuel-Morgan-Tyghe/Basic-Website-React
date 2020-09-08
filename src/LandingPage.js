@@ -22,6 +22,7 @@ function LandingPage() {
 
 
 <div className="wrapper color1 color2">
+<div className="borders color1 color2 mainborder"></div>
 
 <Sketch  />
 
@@ -138,9 +139,9 @@ function LandingPage() {
 </div>
 
 </div>
-<div className="border5"></div>
 
 </div >
+<div className="borders"></div>
 
 
 
