@@ -195,8 +195,8 @@ function useEventListener(eventName, handler, element = document) {
   
     return (
       <React.Fragment>
-        <div ref={cursorOuterRef} style={styles.cursorOuter} className="cursorOuter cursorall color5" />
-        <div ref={cursorInnerRef} style={styles.cursorInner} className="cursorInner cursorall color5" />
+        <div ref={cursorOuterRef} style={styles.cursorOuter} className="color2" />
+        <div ref={cursorInnerRef} style={styles.cursorInner} className="color5" />
 
 
       </React.Fragment>

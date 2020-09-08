@@ -4,7 +4,6 @@ import {findMore} from './findMore';
 import {tosquare} from './toSquareExpand';
 import Sketch from "./Sketch"
 import {change_css} from './ColorChange';
-import './Cursor.gif'
 import Videos from './scroll copy'
 import ContactForm from './ContactForm';
 
@@ -19,7 +18,6 @@ function LandingPage() {
 
 
 <div  onClick={change_css} style={{ cursor: '/cursor.cur' }}>
-
 
 <div className="wrapper color1 color2">
 <div className="borders color1 color2 mainborder"></div>

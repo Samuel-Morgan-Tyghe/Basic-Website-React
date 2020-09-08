@@ -6,6 +6,7 @@ function Nav() {
 
   return (
   <nav  className='puttoback color1'>
+    
 <ul className='nav-links color2 color1'>
 <Link  className='color3' to="/Basic-Website-To-React">
 <li>Home |</li>

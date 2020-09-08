@@ -162,6 +162,11 @@
   .page3 {
     flex-flow: block;
   }
+
+  .aboutGif {
+    height: 80vw;
+    width: 60vw;
+  }
 }
 .page4 {
   position: relative;
@@ -561,10 +566,6 @@ input[type=submit]:hover {
   --cursor-outline-size: 1552px;
 }
 
-cursorall {
-  background-blend-mode: difference;
-}
-
 img {
   max-width: 100%;
 }
@@ -594,12 +595,16 @@ nav {
 }
 
 .mainborder {
-  z-index: 9;
+  z-index: 99999;
   position: fixed;
   transform: translateY(-45px);
   -webkit-transition: ease-out 0.4s;
   -moz-transition: ease-out 0.4s;
   transition: ease-out 0.4s;
+  background-color: red;
+  width: 90%;
+  border: 5px double #0ca2af;
+  background-color: #fff;
 }
 
 .wrapper {

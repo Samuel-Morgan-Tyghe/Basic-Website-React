@@ -39,7 +39,6 @@
 
 
 cursorall
-  background-blend-mode: difference
 
 
 img
@@ -69,13 +68,19 @@ nav
   height: 50px
   background-color: white
   
+
+
 .mainborder
-  z-index: 9
+  z-index: 99999
   position: fixed
   transform: translateY(-45px)
   -webkit-transition: ease-out 0.4s
   -moz-transition: ease-out 0.4s
   transition: ease-out 0.4s
+  background-color: red
+  width: 90%
+  border: 5px double rgb(12, 162, 175)
+  background-color: #fff
 
 .wrapper
   display: flex

@@ -45,7 +45,6 @@ p.centerCanvas =()=> {
    x = (p.windowWidth - p.width ) / 2;
    y = (p.windowHeight - p.height ) / 2;
   cnv.position(0, 0);
-  console.log(p.windowHeight +" " + p.windowWidth)
 }
 
 p.setup = () => {
