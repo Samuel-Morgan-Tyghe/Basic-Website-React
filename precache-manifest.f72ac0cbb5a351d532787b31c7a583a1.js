@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "be5b2be7023b530e0d75274cd8b24f00",
+    "revision": "9478a018db217ada9c1d592541bd4eb7",
     "url": "/Basic-Website-To-React/index.html"
   },
   {
-    "revision": "61d7f8f1d9987c8a36f7",
-    "url": "/Basic-Website-To-React/static/css/main.6c1e2d9b.chunk.css"
+    "revision": "b5683540f1a1e80e4de8",
+    "url": "/Basic-Website-To-React/static/css/main.4d288461.chunk.css"
   },
   {
-    "revision": "6509d66162cb5359da39",
-    "url": "/Basic-Website-To-React/static/js/2.6017d6f6.chunk.js"
+    "revision": "a76256031162a917479a",
+    "url": "/Basic-Website-To-React/static/js/2.939aa5c7.chunk.js"
   },
   {
     "revision": "5eaa06907bd0de424b921a468c8ad486",
-    "url": "/Basic-Website-To-React/static/js/2.6017d6f6.chunk.js.LICENSE.txt"
+    "url": "/Basic-Website-To-React/static/js/2.939aa5c7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "61d7f8f1d9987c8a36f7",
-    "url": "/Basic-Website-To-React/static/js/main.6d6c1cfd.chunk.js"
+    "revision": "b5683540f1a1e80e4de8",
+    "url": "/Basic-Website-To-React/static/js/main.ab14d5b2.chunk.js"
   },
   {
     "revision": "1313247793d504cff30f",
     "url": "/Basic-Website-To-React/static/js/runtime-main.f5bfbb92.js"
+  },
+  {
+    "revision": "b69752d412cfe9e7b46d6ea10532c510",
+    "url": "/Basic-Website-To-React/static/media/Cursor.b69752d4.gif"
   },
   {
     "revision": "0d1685a42c534c46b4bfdf37c702f47e",
@@ -46,9 +50,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b657761dbb58ffbe9e98731df1f5a3cb",
     "url": "/Basic-Website-To-React/static/media/TheBrackish.b657761d.mp4"
-  },
-  {
-    "revision": "cb9702b5a137b435c876a269ad45b95a",
-    "url": "/Basic-Website-To-React/static/media/cursor.cb9702b5.cur"
   }
 ]);
