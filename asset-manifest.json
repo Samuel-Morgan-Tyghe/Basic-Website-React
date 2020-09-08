@@ -1,18 +1,17 @@
 {
   "files": {
-    "main.css": "/Basic-Website-To-React/static/css/main.56ca7966.chunk.css",
-    "main.js": "/Basic-Website-To-React/static/js/main.1438d64e.chunk.js",
-    "main.js.map": "/Basic-Website-To-React/static/js/main.1438d64e.chunk.js.map",
+    "main.css": "/Basic-Website-To-React/static/css/main.ef8e8f7b.chunk.css",
+    "main.js": "/Basic-Website-To-React/static/js/main.d35ca3a8.chunk.js",
+    "main.js.map": "/Basic-Website-To-React/static/js/main.d35ca3a8.chunk.js.map",
     "runtime-main.js": "/Basic-Website-To-React/static/js/runtime-main.f5bfbb92.js",
     "runtime-main.js.map": "/Basic-Website-To-React/static/js/runtime-main.f5bfbb92.js.map",
-    "static/js/2.939aa5c7.chunk.js": "/Basic-Website-To-React/static/js/2.939aa5c7.chunk.js",
-    "static/js/2.939aa5c7.chunk.js.map": "/Basic-Website-To-React/static/js/2.939aa5c7.chunk.js.map",
+    "static/js/2.656cec34.chunk.js": "/Basic-Website-To-React/static/js/2.656cec34.chunk.js",
+    "static/js/2.656cec34.chunk.js.map": "/Basic-Website-To-React/static/js/2.656cec34.chunk.js.map",
     "index.html": "/Basic-Website-To-React/index.html",
-    "precache-manifest.0acc6a91961b25084b22c736d819537f.js": "/Basic-Website-To-React/precache-manifest.0acc6a91961b25084b22c736d819537f.js",
+    "precache-manifest.4e6b6a66a68908a6b9b7e26c682ae4a9.js": "/Basic-Website-To-React/precache-manifest.4e6b6a66a68908a6b9b7e26c682ae4a9.js",
     "service-worker.js": "/Basic-Website-To-React/service-worker.js",
-    "static/css/main.56ca7966.chunk.css.map": "/Basic-Website-To-React/static/css/main.56ca7966.chunk.css.map",
-    "static/js/2.939aa5c7.chunk.js.LICENSE.txt": "/Basic-Website-To-React/static/js/2.939aa5c7.chunk.js.LICENSE.txt",
-    "static/media/Cursor.gif": "/Basic-Website-To-React/static/media/Cursor.b69752d4.gif",
+    "static/css/main.ef8e8f7b.chunk.css.map": "/Basic-Website-To-React/static/css/main.ef8e8f7b.chunk.css.map",
+    "static/js/2.656cec34.chunk.js.LICENSE.txt": "/Basic-Website-To-React/static/js/2.656cec34.chunk.js.LICENSE.txt",
     "static/media/NickHarper.mp4": "/Basic-Website-To-React/static/media/NickHarper.0d1685a4.mp4",
     "static/media/PortErin1.mp4": "/Basic-Website-To-React/static/media/PortErin1.fe5d38e9.mp4",
     "static/media/Radiohead.mp4": "/Basic-Website-To-React/static/media/Radiohead.7e24023f.mp4",
@@ -22,8 +21,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f5bfbb92.js",
-    "static/js/2.939aa5c7.chunk.js",
-    "static/css/main.56ca7966.chunk.css",
-    "static/js/main.1438d64e.chunk.js"
+    "static/js/2.656cec34.chunk.js",
+    "static/css/main.ef8e8f7b.chunk.css",
+    "static/js/main.d35ca3a8.chunk.js"
   ]
 }
