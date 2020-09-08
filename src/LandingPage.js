@@ -4,7 +4,7 @@ import {findMore} from './findMore';
 import {tosquare} from './toSquareExpand';
 import Sketch from "./Sketch"
 import {change_css} from './ColorChange';
-import './cursor.cur'
+import './Cursor.gif'
 import Videos from './scroll copy'
 import ContactForm from './ContactForm';
 
@@ -23,7 +23,7 @@ function LandingPage() {
 
 <div className="wrapper color1 color2">
 
-<Sketch />
+<Sketch  />
 
 
 
@@ -95,7 +95,7 @@ function LandingPage() {
 
 
 
-<a id="MPLink" href="Projects" target="_self">More Projects</a>
+<a className='color2' id="MPLink" href="Projects" target="_self">More Projects</a>
 
 </div>
 

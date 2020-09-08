@@ -34,5 +34,15 @@ elements = document.getElementsByClassName("color4");
 for( i=0; i<elements.length; i++) { 
 elements[i].style.backgroundColor=c4;
 }
+
+elements = document.getElementsByClassName("color5");
+for( i=0; i<elements.length; i++) { 
+elements[i].style.backgroundColor=c3;
+}
+
+elements = document.getElementsByClassName("color6");
+for( i=0; i<elements.length; i++) { 
+elements[i].style.color=c4;
+}
 }
 

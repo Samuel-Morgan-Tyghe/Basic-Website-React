@@ -133,15 +133,14 @@
   display: inline-block;
   font-size: 14px;
   letter-spacing: 1px;
-  cursor: pointer;
-  box-shadow: inset 0 0 0 0 black;
+  box-shadow: inset 0 0 0 0 #018f98;
   -webkit-transition: ease-out 0.4s;
   -moz-transition: ease-out 0.4s;
   transition: ease-out 0.4s;
 }
 
 .slide_left:hover {
-  box-shadow: inset 0 0 0 50px black;
+  box-shadow: inset 0 0 0 50px white;
 }
 
 @media screen and (max-width: 1200px) {
@@ -542,9 +541,65 @@ input[type=submit]:hover {
 }
 
 * {
-  cursor: url("./cursor.cur");
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   font-weight: normal;
   font-style: normal;
+  cursor: none;
+}
+
+:root {
+  --color-cursor: 220, 90, 90;
+  --cursor-outline-shade: 0.5;
+  --cursor-size: 120px;
+  --cursor-outline-size: 1552px;
+}
+
+.cursorOuter {
+  opacity: 0.8;
+}
+
+.cursorInner {
+  opacity: 0.8;
+}
+
+.cursor-dot {
+  z-index: 999;
+  pointer-events: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.15s ease-in-out, transform 0.15s ease-in-out;
+}
+
+.cursor-dot-outline {
+  z-index: 999;
+  pointer-events: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.15s ease-in-out, transform 0.15s ease-in-out;
+}
+
+.cursor-dot {
+  width: var(--cursor-size);
+  height: var(--cursor-size);
+  background-color: rgba(var(--color-cursor), 1);
+}
+
+.cursor-dot-outline {
+  width: var(--cursor-outline-size);
+  height: var(--cursor-outline-size);
+  background-color: rgba(var(--color-cursor), var(--cursor-outline-shade));
 }
 
 img {
@@ -575,6 +630,13 @@ nav {
   background-color: khaki;
 }
 
+:export {
+  color1: #e64c43;
+  color2: #eb6d7f;
+  color3: #eab000;
+  color4: #018f98;
+}
+
 .color1 {
   background-color: #e64c43;
 }
@@ -589,6 +651,10 @@ nav {
 
 .color4 {
   background-color: #018f98;
+}
+
+.color5 {
+  background-color: #eab000;
 }
 
 .border0 {
