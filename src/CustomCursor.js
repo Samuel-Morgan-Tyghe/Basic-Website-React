@@ -30,8 +30,8 @@ function useEventListener(eventName, handler, element = document) {
    * Edited By Samuel Morgan-Tyghe
    */
   function AnimatedCursor({
-    color = '200, 290, 20',
-    outerAlpha = 0.4,
+    color = '250, 250, 250',
+    outerAlpha = 0.9,
     innerSize = 8,
     outerSize = 8,
     outerScale = 5,
@@ -112,7 +112,7 @@ function useEventListener(eventName, handler, element = document) {
   
     React.useEffect(() => {
       const clickables = document.querySelectorAll(
-        'a, input[type="submit"], input[type="image"], label[for], select, button, .link'
+        'a, input[type="submit"], input[type="image"], label[for], select, button, .link, .dot, .button_slide'
       )
       clickables.forEach((el) => {
         el.style.cursor = 'none'
@@ -169,31 +169,34 @@ function useEventListener(eventName, handler, element = document) {
       },
       cursorInner: {
         zIndex: 999,
+        opacity: 0.8,
         position: 'fixed',
         borderRadius: '50%',
         width: innerSize,
         height: innerSize,
         pointerEvents: 'none',
         backgroundColor: `rgba(${color}, 1)`,
-        transition: 'opacity 0.85s ease-in-out, transform 0.25s ease-in-out, '
+        transition: 'opacity 0.85s, ease-in-out, transform 0.25s ease-in-out, '
       },
       cursorOuter: {
         zIndex: 999,
+        opacity: 0.2,
         position: 'fixed',
         borderRadius: '50%',
         pointerEvents: 'none',
+        "mix-blend-mode": 'exclusion',
         width: outerSize,
         height: outerSize,
         backgroundColor: `rgba(${color}, ${outerAlpha})`,
-        transition: 'opacity 0.65s ease-in-out, transform 0.15s ease-in-out'
+        transition: 'opacity 0.65s, ease-in-out, transform 0.15s ease-in-out'
       },
      
     }
   
     return (
       <React.Fragment>
-        <div ref={cursorOuterRef} style={styles.cursorOuter} className="cursorOuter color4" />
-        <div ref={cursorInnerRef} style={styles.cursorInner} className="cursorInner color5" />
+        <div ref={cursorOuterRef} style={styles.cursorOuter} className="cursorOuter cursorall color5" />
+        <div ref={cursorInnerRef} style={styles.cursorInner} className="cursorInner cursorall color5" />
 
 
       </React.Fragment>

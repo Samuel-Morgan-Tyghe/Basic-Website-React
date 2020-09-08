@@ -16,6 +16,15 @@ function Videos() {
   const [innerVideoContainer, VidTrans] = useState("innerVideoContainer");
 
   const listenScrollEvent = event => {
+    let speed = window.scrollY;
+
+
+     elements = document.getElementsByClassName("*");
+    for( i=0; i<elements.length; i++) { 
+      elements[i].style.cssText = "transform: translateY("+(window.scrollY/2)+"px);";
+    }
+
+
     if (window.scrollY > 200) {
     elements = document.getElementsByClassName("mainborder");
     for( i=0; i<elements.length; i++) { 
