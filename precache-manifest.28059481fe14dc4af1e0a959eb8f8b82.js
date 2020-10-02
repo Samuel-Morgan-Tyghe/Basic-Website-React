@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "712949daf4f81903ccde2c2209120227",
+    "revision": "04455d69282b2f0ba41f0a42f897e7c2",
     "url": "/Samuel-Morgan-Tyghe/Website-to-One-Page-Application-Using-React/index.html"
   },
   {
-    "revision": "be3cc27f0f0be94f8fe8",
+    "revision": "28b00fe70f249df7e4d3",
     "url": "/Samuel-Morgan-Tyghe/Website-to-One-Page-Application-Using-React/static/css/main.ef8e8f7b.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Samuel-Morgan-Tyghe/Website-to-One-Page-Application-Using-React/static/js/2.656cec34.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "be3cc27f0f0be94f8fe8",
-    "url": "/Samuel-Morgan-Tyghe/Website-to-One-Page-Application-Using-React/static/js/main.2c0189ac.chunk.js"
+    "revision": "28b00fe70f249df7e4d3",
+    "url": "/Samuel-Morgan-Tyghe/Website-to-One-Page-Application-Using-React/static/js/main.4a0adb74.chunk.js"
   },
   {
     "revision": "717f75a19511fad566de",
