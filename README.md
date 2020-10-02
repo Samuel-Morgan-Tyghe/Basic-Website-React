@@ -9,7 +9,7 @@ https://samuel-morgan-tyghe.github.io/Basic-Website.github.io/
 
 Current State-
 
-https://samuel-morgan-tyghe.github.io/Basic-Website-To-React/
+https://samuel-morgan-tyghe.github.io/Website-to-One-Page-Application-Using-React/
 
 ## What I Learnt
 * React Web-Frameworks, React-Dom, React-Router, ReactJs
