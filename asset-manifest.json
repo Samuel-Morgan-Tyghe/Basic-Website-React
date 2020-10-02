@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/Website-to-One-Page-Application-Using-React/static/css/main.ef8e8f7b.chunk.css",
-    "main.js": "/Website-to-One-Page-Application-Using-React/static/js/main.72d2e792.chunk.js",
-    "main.js.map": "/Website-to-One-Page-Application-Using-React/static/js/main.72d2e792.chunk.js.map",
-    "runtime-main.js": "/Website-to-One-Page-Application-Using-React/static/js/runtime-main.609f2431.js",
-    "runtime-main.js.map": "/Website-to-One-Page-Application-Using-React/static/js/runtime-main.609f2431.js.map",
-    "static/js/2.656cec34.chunk.js": "/Website-to-One-Page-Application-Using-React/static/js/2.656cec34.chunk.js",
-    "static/js/2.656cec34.chunk.js.map": "/Website-to-One-Page-Application-Using-React/static/js/2.656cec34.chunk.js.map",
-    "index.html": "/Website-to-One-Page-Application-Using-React/index.html",
-    "precache-manifest.53d5d13fc793cac70bc98a5a919e5cfc.js": "/Website-to-One-Page-Application-Using-React/precache-manifest.53d5d13fc793cac70bc98a5a919e5cfc.js",
-    "service-worker.js": "/Website-to-One-Page-Application-Using-React/service-worker.js",
-    "static/css/main.ef8e8f7b.chunk.css.map": "/Website-to-One-Page-Application-Using-React/static/css/main.ef8e8f7b.chunk.css.map",
-    "static/js/2.656cec34.chunk.js.LICENSE.txt": "/Website-to-One-Page-Application-Using-React/static/js/2.656cec34.chunk.js.LICENSE.txt",
-    "static/media/NickHarper.mp4": "/Website-to-One-Page-Application-Using-React/static/media/NickHarper.0d1685a4.mp4",
-    "static/media/PortErin1.mp4": "/Website-to-One-Page-Application-Using-React/static/media/PortErin1.fe5d38e9.mp4",
-    "static/media/Radiohead.mp4": "/Website-to-One-Page-Application-Using-React/static/media/Radiohead.7e24023f.mp4",
-    "static/media/RecordingGif.gif": "/Website-to-One-Page-Application-Using-React/static/media/RecordingGif.ecf3b3d2.gif",
-    "static/media/Studio.gif": "/Website-to-One-Page-Application-Using-React/static/media/Studio.4f7561e7.gif",
-    "static/media/TheBrackish.mp4": "/Website-to-One-Page-Application-Using-React/static/media/TheBrackish.b657761d.mp4"
+    "main.css": "/Samuel-Morgan-Tyghe/Website-to-One-Page-Application-Using-React/static/css/main.ef8e8f7b.chunk.css",
+    "main.js": "/Samuel-Morgan-Tyghe/Website-to-One-Page-Application-Using-React/static/js/main.5a62ca0f.chunk.js",
+    "main.js.map": "/Samuel-Morgan-Tyghe/Website-to-One-Page-Application-Using-React/static/js/main.5a62ca0f.chunk.js.map",
+    "runtime-main.js": "/Samuel-Morgan-Tyghe/Website-to-One-Page-Application-Using-React/static/js/runtime-main.e5b24dda.js",
+    "runtime-main.js.map": "/Samuel-Morgan-Tyghe/Website-to-One-Page-Application-Using-React/static/js/runtime-main.e5b24dda.js.map",
+    "static/js/2.656cec34.chunk.js": "/Samuel-Morgan-Tyghe/Website-to-One-Page-Application-Using-React/static/js/2.656cec34.chunk.js",
+    "static/js/2.656cec34.chunk.js.map": "/Samuel-Morgan-Tyghe/Website-to-One-Page-Application-Using-React/static/js/2.656cec34.chunk.js.map",
+    "index.html": "/Samuel-Morgan-Tyghe/Website-to-One-Page-Application-Using-React/index.html",
+    "precache-manifest.2450c70be23a8c1ea2d764be0a6e9d94.js": "/Samuel-Morgan-Tyghe/Website-to-One-Page-Application-Using-React/precache-manifest.2450c70be23a8c1ea2d764be0a6e9d94.js",
+    "service-worker.js": "/Samuel-Morgan-Tyghe/Website-to-One-Page-Application-Using-React/service-worker.js",
+    "static/css/main.ef8e8f7b.chunk.css.map": "/Samuel-Morgan-Tyghe/Website-to-One-Page-Application-Using-React/static/css/main.ef8e8f7b.chunk.css.map",
+    "static/js/2.656cec34.chunk.js.LICENSE.txt": "/Samuel-Morgan-Tyghe/Website-to-One-Page-Application-Using-React/static/js/2.656cec34.chunk.js.LICENSE.txt",
+    "static/media/NickHarper.mp4": "/Samuel-Morgan-Tyghe/Website-to-One-Page-Application-Using-React/static/media/NickHarper.0d1685a4.mp4",
+    "static/media/PortErin1.mp4": "/Samuel-Morgan-Tyghe/Website-to-One-Page-Application-Using-React/static/media/PortErin1.fe5d38e9.mp4",
+    "static/media/Radiohead.mp4": "/Samuel-Morgan-Tyghe/Website-to-One-Page-Application-Using-React/static/media/Radiohead.7e24023f.mp4",
+    "static/media/RecordingGif.gif": "/Samuel-Morgan-Tyghe/Website-to-One-Page-Application-Using-React/static/media/RecordingGif.ecf3b3d2.gif",
+    "static/media/Studio.gif": "/Samuel-Morgan-Tyghe/Website-to-One-Page-Application-Using-React/static/media/Studio.4f7561e7.gif",
+    "static/media/TheBrackish.mp4": "/Samuel-Morgan-Tyghe/Website-to-One-Page-Application-Using-React/static/media/TheBrackish.b657761d.mp4"
   },
   "entrypoints": [
-    "static/js/runtime-main.609f2431.js",
+    "static/js/runtime-main.e5b24dda.js",
     "static/js/2.656cec34.chunk.js",
     "static/css/main.ef8e8f7b.chunk.css",
-    "static/js/main.72d2e792.chunk.js"
+    "static/js/main.5a62ca0f.chunk.js"
   ]
 }

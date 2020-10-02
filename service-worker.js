@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Website-to-One-Page-Application-Using-React/precache-manifest.53d5d13fc793cac70bc98a5a919e5cfc.js"
+  "/Samuel-Morgan-Tyghe/Website-to-One-Page-Application-Using-React/precache-manifest.2450c70be23a8c1ea2d764be0a6e9d94.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -33,7 +33,7 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/Website-to-One-Page-Application-Using-React/index.html"), {
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/Samuel-Morgan-Tyghe/Website-to-One-Page-Application-Using-React/index.html"), {
   
   blacklist: [/^\/_/,/\/[^/?]+\.[^/]+$/],
 });
