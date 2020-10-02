@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Samuel-Morgan-Tyghe/Website-to-One-Page-Application-Using-React/precache-manifest.2450c70be23a8c1ea2d764be0a6e9d94.js"
+  "/Samuel-Morgan-Tyghe/Website-to-One-Page-Application-Using-React/precache-manifest.cb4b33c7153efd27e574a0ff03f01ab9.js"
 );
 
 self.addEventListener('message', (event) => {
