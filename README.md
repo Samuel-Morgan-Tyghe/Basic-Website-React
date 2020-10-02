@@ -31,8 +31,8 @@ The next step would be to:
 - [x] Use ~~Bootstrap~~ flex to create a Fully Responsive Website, and add Fluid Typography.
 - [x] Follow best practices such as , clear code, organise and modularise. Take notes so as to incorporate from the beginning of the next project (with Bootstrap CSS).
 - [x] Create back-end function for Contact Form // Tempremental, needs debug.
-- [ ] Perform SEO Analysis and add additional content (Social media, metadata...)
 - [x] Add Sass and categorise CSS into separate files, (modules) convert ChangeColor.js to variables within Sass to follow best practices.
 - [x] Debugging javascript, p5js- resize function
 - [x] Animation and Opacity not working on Pages Build  (my Packages)
-- [ ] Custom Cursor
+- [x] Custom Cursor
+- [ ] Clean
