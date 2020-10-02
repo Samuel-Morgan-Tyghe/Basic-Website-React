@@ -16,7 +16,7 @@ let wiggleamount = 3;
 let wiggleamountb = wiggleamount;
 let wiggleamount1;
 let wiggleamount1b;
-let numBalls = 100;
+let numBalls = 50;
 let balls = [];
 let wV = wiggleamount;
 let ballx = [];
@@ -44,7 +44,7 @@ let random_boolean =p.random_boolean;
 p.centerCanvas =()=> {
    x = (p.windowWidth - p.width ) / 2;
    y = (p.windowHeight - p.height ) / 2;
-  cnv.position(0, 120);
+  cnv.position(0, 0);
 }
 
 p.setup = () => {
@@ -62,7 +62,7 @@ p.setup = () => {
   if (typen==4) {squareW = true;}  
 
 
-  p.createCanvas(p.windowWidth -20, p.windowHeight);
+  p.windowResized();
   // Starts in the middle
   x = p.width / 2;
   y = p.height / 2;
@@ -104,7 +104,11 @@ selector = selector + 1;
 
 
 p.windowResized=()=> {
-  p.resizeCanvas(p.windowWidth -20, p.windowHeight);
+  if(p.windowWidth > 1200){
+  p.resizeCanvas(p.windowWidth -20, p.windowWidth/1.77);
+  }else{
+    p.resizeCanvas(p.windowWidth -20, p.windowWidth/1.1);
+  }
   p.centerCanvas();
 }
 

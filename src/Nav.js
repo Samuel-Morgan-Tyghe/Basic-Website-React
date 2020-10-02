@@ -4,22 +4,17 @@ import {Link} from 'react-router-dom';
 
 function Nav() {
 
-
-const navStyle = {
-color: 'white'
-
-};
-
   return (
-  <nav  className='puttoback'>
-<ul className='nav-links'>
-<Link style={navStyle} to="/Basic-Website-To-React">
-<li>Home</li>
+  <nav  className='puttoback color1'>
+    
+<ul className='nav-links color2 color1'>
+<Link  className='color3' to="/Basic-Website-To-React">
+<li>Home |</li>
 </Link>
-<Link style={navStyle} to="/about">
-<li>About</li>
+<Link className='color3'  to="/about">
+<li>About |</li>
 </Link>
-<Link style={navStyle} to="/projects">
+<Link className='color3'  to="/projects">
 <li>Projects</li>
 </Link>
 

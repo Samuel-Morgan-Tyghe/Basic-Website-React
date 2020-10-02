@@ -4,9 +4,12 @@ import {findMore} from './findMore';
 import {tosquare} from './toSquareExpand';
 import Sketch from "./Sketch"
 import {change_css} from './ColorChange';
-import './Media/RecordingGif.gif'
-import './cursor.cur'
-import Submit from "./Submit"
+import Videos from './scroll copy'
+import ContactForm from './ContactForm';
+
+
+
+
 function LandingPage() {
 
 
@@ -16,10 +19,10 @@ function LandingPage() {
 
 <div  onClick={change_css} style={{ cursor: '/cursor.cur' }}>
 
-
 <div className="wrapper color1 color2">
+<div className="borders color1 color2 mainborder"></div>
 
-<Sketch />
+<Sketch  />
 
 
 
@@ -54,7 +57,7 @@ function LandingPage() {
 
 <div className="page3 color1" id ="page3">
 
-         <div className="aboutGifContainer" ><iframe className="aboutGif" src="https://gifer.com/embed/1fmB" frameBorder="0" ></iframe></div>
+         <div className="aboutGifContainer" ><img className="aboutGif" src={require("./Media/Studio.gif")} ></img></div>
          <div className="aboutpcontainer">
       <div className="aboutP">
 
@@ -82,26 +85,16 @@ function LandingPage() {
 <div className="page4 color1" id ="page4" >
 <h1>Projects</h1>
 
-    <div className="videoContainer" >
-         <div className="innerVideoContainer v1">
-         <iframe className= "PVideo " title="video"  width="560" height="315" src="https://www.youtube.com/embed/dT3501_Zhes" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-         <div className="VtextContainer"><p>PortErin</p><p>PortErin</p><p>PortErin</p><p>PortErin</p><p>PortErin</p></div><div className="vBorders "></div>
-        </div>
-         <div className="innerVideoContainer v2">
-         <iframe className= "PVideo " title="video"  width="560" height="315" src="https://www.youtube.com/embed/yI2oS2hoL0k" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-         <div className="VtextContainer"><p>RadioHead</p><p>RadioHead</p><p>RadioHead</p><p>RadioHead</p><p>RadioHead</p></div><div className="vBorders "></div>
-         </div></div>
-    <div className="videoContainer" >
-    <div className="innerVideoContainer v3">
-         <iframe className= "PVideo " title="video" width="560" height="315" src="https://www.youtube.com/embed/-bh_AOQgQ3Q" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-         <div className="VtextContainer"><p>The Brackish</p><p>The Brackish</p><p>The Brackish</p><p>The Brackish</p><p>The Brackish</p></div><div className="vBorders "></div>
-         </div>
-         <div className="innerVideoContainer v4">
-         <iframe className= "PVideo " title="video" width="560" height="315" src="https://www.youtube.com/embed/Ew0vDD4kesA" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-         <div className="VtextContainer"><p>Nick Harper</p><p>Nick Harper</p><p>Nick Harper</p><p>Nick Harper</p><p>Nick Harper</p></div><div className="vBorders "></div>
-        </div>
-    </div>
-<a id="MPLink" href="Projects" target="_self">More Projects</a>
+
+
+<Videos />
+
+
+
+
+
+
+<a className='color2' id="MPLink" href="Projects" target="_self">More Projects</a>
 
 </div>
 
@@ -144,33 +137,24 @@ function LandingPage() {
 </div>
 
 </div>
-<div className="border5"></div>
 
 </div >
+<div className="borders"></div>
 
 
 
 <div className="page6 color1 color2">
 <div className="container color4 color2"> 
 
-<form action="/action_page.php">
-    <h3>Quick Contact</h3>
-    <p>Contact us today, and get reply with in 24 hours!</p>
-    <input type="text" placeholder="Your name..">
-</input>
-    <input type="text" placeholder="Your Number..">
-</input>
-    <input type="text" placeholder="Your Email..">
-</input>
-    <textarea id="subject"  placeholder="Write something.."></textarea>
-    <input type="submit" value="Submit"></input>
-</form>
- 
+<ContactForm />
+
+
 </div>
 </div>
          </div >
-         < Submit />
 
+
+        
          </div>
 
 
