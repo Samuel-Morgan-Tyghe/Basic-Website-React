@@ -14,7 +14,7 @@ function App() {
   return (
     
     <Router >
-<AnimatedCursor className="color3" />
+    <AnimatedCursor className="color3" />
     <div className="App color1 color3" id="app"  >
     <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
 

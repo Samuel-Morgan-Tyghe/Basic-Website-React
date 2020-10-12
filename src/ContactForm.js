@@ -82,7 +82,7 @@ const ContactForm = () => {
             onChange={onInputChange}
           />
         </Form.Group>
-        <Form.Group controlId="subject">
+        <Form.Group controlId="message">
           <Form.Label>Message</Form.Label>
           <Form.Control
             as="textarea"

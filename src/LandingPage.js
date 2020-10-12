@@ -39,7 +39,7 @@ function LandingPage() {
 <div className="page2"id ="page2 color1" >
 
 <div className="playContainer">
-<img className="gifRecording" src={require("./Media/RecordingGif.gif")} /> 
+<img className="gifRecording" src={require("./Media/RecordingGif.gif") } alt='Recording Studio'/> 
 <div className="PlayBox"  >
 <div className="playButton color4">
 <p className ="play">PLAY</p>
@@ -57,7 +57,7 @@ function LandingPage() {
 
 <div className="page3 color1" id ="page3">
 
-         <div className="aboutGifContainer" ><img className="aboutGif" src={require("./Media/Studio.gif")} ></img></div>
+         <div className="aboutGifContainer" ><img className="aboutGif" src={require("./Media/Studio.gif")} alt='Recording Studio' ></img></div>
          <div className="aboutpcontainer">
       <div className="aboutP">
 

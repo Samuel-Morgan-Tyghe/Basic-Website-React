@@ -22,13 +22,7 @@ function useEventListener(eventName, handler, element = document) {
     }, [eventName, element])
   }
   
-  /**
-   * Animated Cursor
-   * Replaces the native cursor with a custom animated cursor.
-   *
-   * @author Stephen Scaff
-   * Edited By Samuel Morgan-Tyghe
-   */
+
   function AnimatedCursor({
     color = '250, 250, 250',
     outerAlpha = 0.9,
@@ -78,7 +72,7 @@ function useEventListener(eventName, handler, element = document) {
     const onMouseLeave = React.useCallback(() => setIsVisible(false), [])
   
     useEventListener('mousemove', onMouseMove, document)
-    useEventListener('mousedown', onMouseDown, document)
+    useEventListener('mousedown', onMouseDown, document, {passive:true})
     useEventListener('mouseup', onMouseUp, document)
     useEventListener('mouseenter', onMouseEnter, document)
     useEventListener('mouseleave', onMouseLeave, document)
@@ -184,7 +178,7 @@ function useEventListener(eventName, handler, element = document) {
         position: 'fixed',
         borderRadius: '50%',
         pointerEvents: 'none',
-        "mix-blend-mode": 'exclusion',
+        "mixBlendMode": 'exclusion',
         width: outerSize,
         height: outerSize,
         backgroundColor: `rgba(${color}, ${outerAlpha})`,
