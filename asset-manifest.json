@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Basic-Website-To-React/static/css/main.ef8e8f7b.chunk.css",
-    "main.js": "/Basic-Website-To-React/static/js/main.0a87f871.chunk.js",
-    "main.js.map": "/Basic-Website-To-React/static/js/main.0a87f871.chunk.js.map",
+    "main.js": "/Basic-Website-To-React/static/js/main.8b8aa75c.chunk.js",
+    "main.js.map": "/Basic-Website-To-React/static/js/main.8b8aa75c.chunk.js.map",
     "runtime-main.js": "/Basic-Website-To-React/static/js/runtime-main.f5bfbb92.js",
     "runtime-main.js.map": "/Basic-Website-To-React/static/js/runtime-main.f5bfbb92.js.map",
     "static/js/2.656cec34.chunk.js": "/Basic-Website-To-React/static/js/2.656cec34.chunk.js",
     "static/js/2.656cec34.chunk.js.map": "/Basic-Website-To-React/static/js/2.656cec34.chunk.js.map",
     "index.html": "/Basic-Website-To-React/index.html",
-    "precache-manifest.217dfc0c9e9f4d859e69535bf7ca68ee.js": "/Basic-Website-To-React/precache-manifest.217dfc0c9e9f4d859e69535bf7ca68ee.js",
+    "precache-manifest.7177f16efe40fbb9fb8f250592618803.js": "/Basic-Website-To-React/precache-manifest.7177f16efe40fbb9fb8f250592618803.js",
     "service-worker.js": "/Basic-Website-To-React/service-worker.js",
     "static/css/main.ef8e8f7b.chunk.css.map": "/Basic-Website-To-React/static/css/main.ef8e8f7b.chunk.css.map",
     "static/js/2.656cec34.chunk.js.LICENSE.txt": "/Basic-Website-To-React/static/js/2.656cec34.chunk.js.LICENSE.txt",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.f5bfbb92.js",
     "static/js/2.656cec34.chunk.js",
     "static/css/main.ef8e8f7b.chunk.css",
-    "static/js/main.0a87f871.chunk.js"
+    "static/js/main.8b8aa75c.chunk.js"
   ]
 }
