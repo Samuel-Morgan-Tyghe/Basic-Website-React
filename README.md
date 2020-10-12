@@ -1,14 +1,5 @@
 # Website to One Page Application Using React
 This project was Hosted via github/gitPages, using Visual Studio Code.
-
-Previous State-
-
-https://github.com/Samuel-Morgan-Tyghe/Basic-Website.github.io
-
-https://samuel-morgan-tyghe.github.io/Basic-Website.github.io/
-
-Current State-
-
 https://samuel-morgan-tyghe.github.io/Basic-Website-To-React
 
 ## What I Learnt
