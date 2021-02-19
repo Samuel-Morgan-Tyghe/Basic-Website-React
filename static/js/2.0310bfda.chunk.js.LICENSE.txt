@@ -46,6 +46,9 @@ object-assign
  *                              - **"none"**: Nothing should be preloaded before the video is played
  *                              - **"metadata"**: Only the video's metadata (ie length, dimensions) should be preloaded
  *                              - **"auto"**: The whole video file should be preloaded even if it won't be played
+ * @param {string}  [crossOrigin='anonymous'] - Sets how the video element should handle CORS requests. Accepts one of the following values:
+ *                                              - **"anonymous"**: CORS requests will have the credentials flag set to 'same-origin'
+ *                                              - **"use-credentials"**: CORS requests for this element will have the credentials flag set to 'include'
  * @param {string}  [className] - Optional className to apply custom styling to the container element
  * @param {object}  [style] - Style object to apply custom inlined styles to the hover player container
  * @param {string}  [pausedOverlayWrapperClassName] - Optional className to apply custom styling to the overlay contents' wrapper
@@ -73,15 +76,6 @@ object-assign
  */
 
 /** @license React v16.13.1
- * react-dom.production.min.js
- *
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-/** @license React v16.13.1
  * react-is.production.min.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.
@@ -90,7 +84,16 @@ object-assign
  * LICENSE file in the root directory of this source tree.
  */
 
-/** @license React v16.13.1
+/** @license React v16.14.0
+ * react-dom.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v16.14.0
  * react.production.min.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.

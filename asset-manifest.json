@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Basic-Website-To-React/static/css/main.ef8e8f7b.chunk.css",
-    "main.js": "/Basic-Website-To-React/static/js/main.8b8aa75c.chunk.js",
-    "main.js.map": "/Basic-Website-To-React/static/js/main.8b8aa75c.chunk.js.map",
+    "main.css": "/Basic-Website-To-React/static/css/main.d5e047b2.chunk.css",
+    "main.js": "/Basic-Website-To-React/static/js/main.bc7b0ea4.chunk.js",
+    "main.js.map": "/Basic-Website-To-React/static/js/main.bc7b0ea4.chunk.js.map",
     "runtime-main.js": "/Basic-Website-To-React/static/js/runtime-main.f5bfbb92.js",
     "runtime-main.js.map": "/Basic-Website-To-React/static/js/runtime-main.f5bfbb92.js.map",
-    "static/js/2.656cec34.chunk.js": "/Basic-Website-To-React/static/js/2.656cec34.chunk.js",
-    "static/js/2.656cec34.chunk.js.map": "/Basic-Website-To-React/static/js/2.656cec34.chunk.js.map",
+    "static/js/2.0310bfda.chunk.js": "/Basic-Website-To-React/static/js/2.0310bfda.chunk.js",
+    "static/js/2.0310bfda.chunk.js.map": "/Basic-Website-To-React/static/js/2.0310bfda.chunk.js.map",
     "index.html": "/Basic-Website-To-React/index.html",
-    "precache-manifest.7177f16efe40fbb9fb8f250592618803.js": "/Basic-Website-To-React/precache-manifest.7177f16efe40fbb9fb8f250592618803.js",
+    "precache-manifest.bf11ab543aa4315593f120a645130842.js": "/Basic-Website-To-React/precache-manifest.bf11ab543aa4315593f120a645130842.js",
     "service-worker.js": "/Basic-Website-To-React/service-worker.js",
-    "static/css/main.ef8e8f7b.chunk.css.map": "/Basic-Website-To-React/static/css/main.ef8e8f7b.chunk.css.map",
-    "static/js/2.656cec34.chunk.js.LICENSE.txt": "/Basic-Website-To-React/static/js/2.656cec34.chunk.js.LICENSE.txt",
+    "static/css/main.d5e047b2.chunk.css.map": "/Basic-Website-To-React/static/css/main.d5e047b2.chunk.css.map",
+    "static/js/2.0310bfda.chunk.js.LICENSE.txt": "/Basic-Website-To-React/static/js/2.0310bfda.chunk.js.LICENSE.txt",
     "static/media/NickHarper.mp4": "/Basic-Website-To-React/static/media/NickHarper.0d1685a4.mp4",
     "static/media/PortErin1.mp4": "/Basic-Website-To-React/static/media/PortErin1.fe5d38e9.mp4",
     "static/media/Radiohead.mp4": "/Basic-Website-To-React/static/media/Radiohead.7e24023f.mp4",
@@ -21,8 +21,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f5bfbb92.js",
-    "static/js/2.656cec34.chunk.js",
-    "static/css/main.ef8e8f7b.chunk.css",
-    "static/js/main.8b8aa75c.chunk.js"
+    "static/js/2.0310bfda.chunk.js",
+    "static/css/main.d5e047b2.chunk.css",
+    "static/js/main.bc7b0ea4.chunk.js"
   ]
 }
